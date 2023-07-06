@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
   runtimeConfig: {
     public: {
-      recipeAPIKey: 'fb1988a0ce144e11b391146a48bf9cc4'
+      recipeAPIKey: process.env.SPOONACULAR_API_PUBLIC
     }
   }
 })
