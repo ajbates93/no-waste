@@ -1,4 +1,4 @@
-type Recipe = {
+export type Recipe = {
   id: number,
   title: string,
   image: string,
@@ -11,7 +11,7 @@ type Recipe = {
   likes: number
 }
 
-type Ingredient = {
+export type Ingredient = {
   id: number,
   amount: number,
   unit: string,
@@ -25,3 +25,11 @@ type Ingredient = {
   extendedName: string,
   image: string
 }
+
+export type HomepageHighlightCard = {
+  id: number,
+  icon: string,
+  title: string,
+  description: string
+}
+

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-
+import { Recipe } from '../..//types';
 const { recipe } = defineProps<{
   recipe: Recipe;
 }>();
