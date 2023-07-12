@@ -11,7 +11,7 @@ const exactMatch = computed(() => {
 </script>
 
 <template>
-  <div class="bg-white rounded shadow">
+  <div class="bg-white dark:bg-custNavyLight dark:text-gray-200 rounded-2xl overflow-hidden shadow">
     <div class="recipe-image">
       <picture>
         <img :src="recipe.image" class="w-full" />

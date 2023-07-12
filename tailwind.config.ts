@@ -7,6 +7,7 @@ module.exports = {
         'custDarkLighter': '#28283f',
         'custNavy': '#264653',
         'custNavyLight': '#2e5564',
+        'custNavyLightest': '#366476',
         'custGreen': '#2A9D8F',
         'custYellow': '#E9C46A',
         'custOrange': '#F4A261'
