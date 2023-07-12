@@ -22,7 +22,7 @@ export type Ingredient = {
   original: string,
   originalName: string,
   meta: string[],
-  extendedName: string,
+  extendedName?: string,
   image: string
 }
 
