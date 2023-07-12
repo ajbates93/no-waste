@@ -3,7 +3,8 @@
 </script>
 
 <template>
-  <div>
+  <div class="bg-[#fafafa] dark:bg-custNavy min-h-screen">
+    <Header />
     <slot />
   </div>
 </template>

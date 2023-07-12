@@ -9,15 +9,13 @@ const { card } = defineProps<{
 
 <template>
   <div>
-    <div class="bg-white dark:bg-dark rounded shadow">
-      <div class="recipe-image">
-        <picture>
-          <img :src="card.icon" class="w-full" />
-        </picture>
+    <div class="bg-white dark:bg-custNavyLight py-2 px-7 rounded-2xl shadow">
+      <div class="recipe-image text-custGreen mt-5">
+        <Icon size="2em" :name="`iconoir-${card.icon}`"></Icon>
       </div>
-      <div class="recipe-content py-3 px-5">
-        <h2 class="text-2xl font-bold">{{ card.title }}</h2>
-        <p class="text-green-500">{{ card.description }}</p>
+      <div class="recipe-content py-3">
+        <h2 class="text-3xl font-bold dark:text-gray-200 my-5">{{ card.title }}</h2>
+        <p class="text-green-500 dark:text-gray-400">{{ card.description }}</p>
       </div>
     </div>
   </div>
