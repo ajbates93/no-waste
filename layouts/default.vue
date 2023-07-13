@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="bg-[#fafafa] dark:bg-custNavy min-h-screen">
+  <div class="bg-[#fafafa] dark:bg-custNavy min-h-screen px-5">
     <Header />
     <slot />
   </div>

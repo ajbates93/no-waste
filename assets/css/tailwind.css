@@ -6,3 +6,10 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.4px;
   line-height: 64px;
 }
+
+.page-enter-active, .page-leave-active {
+  transition: opacity 0.3s;
+}
+.page-enter-from, .page-leave-to {
+  opacity: 0;
+}
