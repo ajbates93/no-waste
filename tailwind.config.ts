@@ -15,7 +15,7 @@ module.exports = {
         'custPurple': '#7A2FB0'
       },
       fontFamily: {
-        sans: ['Inter Var', 'sans-serif'],
+        sans: ['Onest', 'sans-serif'],
       },
     },
   },
