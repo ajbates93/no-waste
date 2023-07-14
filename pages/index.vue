@@ -6,25 +6,29 @@ const highlights: HomepageHighlightCard[] = [
     id: 0,
     title: 'Inspire',
     description: 'Inspire home cooks to eliminate fridge food waste with creative recipes.',
-    icon: 'light-bulb-on'
+    icon: 'light-bulb-on',
+    colour: 'custGreen'
   },
   {
     id: 1,
     title: 'Transform',
     description: 'Help families reduce food waste by transforming leftovers and expiring foods into meals.',
-    icon: 'repeat'
+    icon: 'repeat',
+    colour: 'custOrange'
   },
   {
     id: 2,
     title: 'Equip',
     description: 'Equip home cooks with creative skills to transform ingredients and reduce waste.',
-    icon: 'tools'
+    icon: 'tools',
+    colour: 'custPurple'
   },
   {
     id: 3,
     title: 'Connect',
     description: 'Connect you to recipes that creatively minimize unused groceries.',
-    icon: 'link'
+    icon: 'link',
+    colour: 'custYellow'
   }
 ]
 </script>

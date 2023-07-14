@@ -30,6 +30,7 @@ export type HomepageHighlightCard = {
   id: number,
   icon: string,
   title: string,
-  description: string
+  description: string,
+  colour: string
 }
 
